@@ -15,14 +15,11 @@ describe("humanCatDogYears", () => {
     const dogCatYearsD = { dogYears: 34, catYears: 32 };
     expect(humanCatDogYears(humanYearsD)).toStrictEqual(dogCatYearsD);
   });
-    });
-    expect(humanCatDogYears(3)).toStrictEqual({
-      dogYears: 29,
-      catYears: 28
-    });
-    expect(humanCatDogYears(4)).toStrictEqual({
-      dogYears: 34,
-      catYears: 32
-    });
-  });
 });
+
+/*
+ * The first year of both a cat and a dog's life is equivalent to 15 human years.
+ * The second year of both a cat and a dog's life is equivalent to 9 human years.
+ * Subsequent years after the second year of a cat's life, are equivalent to 4 human years.
+ * Subsequent years after the second year of a dog's life, are equivalent to 5 human years.
+ */

@@ -1,7 +1,7 @@
 const { joinNames } = require("../src");
 
 describe("joinNames", () => {
-  test("returns string of names, seperated by commas and an ampersand", () => {
+  test("returns string of names, separated by commas and an ampersand", () => {
     const namesA = [{ name: "Bart" }];
     expect(joinNames(namesA)).toBe("Bart");
 

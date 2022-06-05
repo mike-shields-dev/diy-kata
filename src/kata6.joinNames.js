@@ -1,6 +1,7 @@
-const joinNames = people => {
-  return people.reduce((names, person, index) => {
+const joinNames = people =>
+  people.reduce((names, person, index) => {
     let substring = "";
+
     if (index === 0) {
       substring += person.name;
     } else if (index === people.length - 1) {
@@ -8,8 +9,8 @@ const joinNames = people => {
     } else {
       substring += `, ${person.name}`;
     }
+
     return names + substring;
   }, "");
-};
 
 module.exports = joinNames;

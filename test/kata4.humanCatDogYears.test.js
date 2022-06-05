@@ -1,4 +1,4 @@
-const humanCatDogYears = require("../src/kata4.humanCatDogYears")
+const { humanCatDogYears } = require("../src");
 
 describe("humanCatDogYears", () => {
   it("should take an amount of time in human years and return an object containing the number of years in dog years and cat years", () => {

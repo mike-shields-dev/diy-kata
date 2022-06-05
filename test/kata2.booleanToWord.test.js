@@ -1,4 +1,4 @@
-const booleanToWord = require("../src/kata2.booleanToWord");
+const { booleanToWord } = require("../src");
 
 describe("booleanToWord", () => {
   it("should take a boolean and return the string representation of it", () => {

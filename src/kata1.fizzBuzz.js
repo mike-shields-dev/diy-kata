@@ -1,10 +1,5 @@
-function isMultipleOf3(number) {
-  return number % 3 === 0;
-}
-
-function isMultipleOf5(number) {
-  return number % 5 === 0;
-}
+const isMultipleOf3 = number => number % 3 === 0;
+const isMultipleOf5 = number => number % 5 === 0;
 
 const fizzBuzz = number => {
   let result = "";
